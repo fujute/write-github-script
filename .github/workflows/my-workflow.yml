@@ -16,7 +16,7 @@ jobs:
             issue_number: context.issue.number,
             owner: context.repo.owner,
             repo: context.repo.repo,
-            body: "🎉 You've created this issue comment using GitHub Script!!! f11L "
+            body: "🎉 You've created this issue comment using GitHub Script!!! f11L #1 "
             })
             github.projects.createCard({
             column_id: 15278337,
